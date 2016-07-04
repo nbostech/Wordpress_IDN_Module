@@ -1,11 +1,11 @@
 <?php
 /**
- * @package Hello_Dolly
+ * @package NBOS_IDN
  * @version 1.6
  */
 /*
 Plugin Name: NBOS IDN Wordpress Bridge
-Plugin URI: http://wordpress.org/plugins/hello-dolly/
+Plugin URI: https://github.com/nbostech/Wordpress_IDN_Module
 Description: Read only wordpress blog bridge. Make api call to read data from wordpress.
 Author: Sharief
 Version: 1.6
@@ -13,8 +13,8 @@ Version: 1.6
 */
 class NBOS_IDN {
     //static $NBOS_API_URL = 'http://api.qa1.nbos.in';
-    //static $CLIENT_ID = 'hariome-module-client';
-    //static $CLIENT_SECRET = 'hariome-module-secret';
+    //static $CLIENT_ID = 'myapp-module-client';
+    //static $CLIENT_SECRET = 'myapp-module-secret';
 
     public static function getNBOSOptions($key){
         $plugin_options = get_option("nbos_options");
